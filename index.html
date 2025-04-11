@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taller Sustentable</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f4f0;
+      color: #2e2e2e;
+    }
+    header {
+      background-color: #1b5e20;
+      color: white;
+      padding: 20px 30px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    header img {
+      height: 60px;
+      width: auto;
+    }
+    .header-title {
+      display: flex;
+      flex-direction: column;
+    }
+    .header-title h1 {
+      margin: 0;
+      font-size: 1.8em;
+    }
+    .header-title p {
+      margin: 4px 0 0;
+      font-size: 0.95em;
+      font-weight: 300;
+    }
+    nav {
+      background-color: #81c784;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .main-featured {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: white;
+      margin: 50px auto;
+      max-width: 960px;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .main-featured img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 25px;
+    }
+    .main-featured h2 {
+      font-size: 2.2em;
+      margin-bottom: 15px;
+      color: #2e7d32;
+    }
+    .main-featured p {
+      font-size: 1.15em;
+      line-height: 1.7;
+      text-align: justify;
+    }
+    .content {
+      padding: 30px;
+      max-width: 960px;
+      margin: auto;
+    }
+    .content h2 {
+      margin-bottom: 20px;
+      color: #1b5e20;
+    }
+    .articles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .article {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    }
+    .article h3 {
+      color: #388e3c;
+    }
+    .article p {
+      font-size: 0.98em;
+      line-height: 1.5;
+    }
+    footer {
+      background-color: #1b5e20;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/ChatGPT Image 10 abr 2025, 17_11_00.png" alt="Logo Taller Sustentable">
+    <div class="header-title">
+      <h1>Taller Sustentable</h1>
+      <p>El diario digital del cambio ecológico</p>
+    </div>
+  </header>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Notas</a>
+    <a href="#">Opinión</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <section class="main-featured">
+    <img src="/b2ap3_large_Tipos-de-responsabilidad-social-empresarial.jpeg" alt="Responsabilidad sustentable empresarial" style="width: 500px; height: auto;">
+    <h2>La confianza argentina en el impacto ambiental</h2>
+    <p>El 60% de la población argentina cree que las empresas adoptan medidas de sostenibilidad según Worldviews Survey, una encuesta anual realizada por las empresas Worldwide Independent Network of MR y Voices, que tomaron perspectivas de 34.936 personas en 39 países acerca de temas sociales urgentes.</p>
+    <p>Si bien los números denotan progreso con respecto a años anteriores, cuando en 2022 arrojó 49% y en 2023 un 47%, solo el 14% de la sociedad considera que estas medidas se toman con seriedad. Por otra parte, el 46% restante adopta un pensamiento crítico y cree que estas acciones son tomadas únicamente para dejar una buena imagen ante el público.</p>
+    <p>En cuanto al ámbito internacional, los registros mundiales indican un porcentaje aún más alto que en nuestro país. Los datos indican que un 66% de los individuos cree que las empresas adoptan estas medidas, un aumento de 8% con respecto a los dos años previos. Aunque, de todos modos, continúa el escepticismo con respecto al verdadero propósito ya que solo el 22% confía en que lo hacen seriamente y el 44% piensa que es por motivos de imagen.</p>
+    <p>En Latinoamérica la única nación que confía en los verdaderos propósitos empresariales es México con un 30%, ya que el resto tiene una opinión crítica y, en consecuencia, el promedio es bajo como lo podemos ver en Brasil (17%), Chile y Ecuador (16%), Perú (12%), Paraguay (9%).</p>
+  </section>
+
+  <div class="content">
+    <h2>Otras notas</h2>
+    <div class="articles">
+      <div class="article">
+        <h3>Cómo crear tu propio compost en casa</h3>
+        <p>Una guía práctica para transformar residuos en vida.</p>
+      </div>
+      <div class="article">
+        <h3>5 herramientas sustentables para tu taller</h3>
+        <p>Optimizá tu espacio de trabajo con impacto positivo.</p>
+      </div>
+      <div class="article">
+        <h3>La energía solar en proyectos caseros</h3>
+        <p>Desde cargadores hasta iluminación ecológica.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Taller Sustentable. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
+
